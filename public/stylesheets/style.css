@@ -1,0 +1,38 @@
+body {
+  padding-top: 50px;
+  background-color: white;
+  color: #00155C;
+  font-family: 'Lato';
+}
+
+h1 {
+	color: #1D8893;
+	font-family: 'Lato';
+	text-align: center;
+}
+
+.navbar-inverse {
+/*	background-color: #1D8893;*/
+	font-family: 'Lato';
+	text-align: center;
+}
+
+.tab-content .lead {
+	margin-top: 20px;
+}
+
+.result-table {
+	margin: 20px 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.result-table td {
+	padding: 8px;
+}
+
+.result-table > tbody > tr > td:first-child {
+	width: 25%;
+	max-width: 300px;
+	text-align: right;
+}
